@@ -137,3 +137,48 @@ p {
   left: 264px;
   font-size: x-large;
 }
+
+.tech {
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+}
+
+.textcenter {
+  text-align: center;
+  font-size: 30px;
+}
+
+.box {
+  height: 400px;
+  width: 250px;
+  display: inline-block;
+  margin-left: 34px;
+}
+
+.tech1 {
+  height: 150px;
+  width: 248px;
+}
+
+.techabout {
+  display: block;
+  height: 256px;
+  width: 248px;
+  background-color: gray;
+  margin-top: -36px;
+}
+
+.btn {
+  background-color: red;
+  height: 32px;
+  width: 241px;
+  border-radius: 20px;
+  margin-left: 5px;
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
+  pointer-events: stroke;
+}
