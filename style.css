@@ -139,7 +139,7 @@ p {
 }
 
 .tech {
-  height: 600px;
+  height: 478px;
   width: 1200px;
   margin: auto;
 }
@@ -181,4 +181,16 @@ p {
 button:hover {
   background-color: blue;
   pointer-events: stroke;
+}
+
+.contact {
+  height: 115px;
+  width: 1200px;
+  margin: auto;
+  background-color: pink;
+}
+
+.contactText {
+  text-align: center;
+  color: black;
 }
