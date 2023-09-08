@@ -30,7 +30,6 @@
   </header>
 
   <div class="container">
-
     <img src="./img/slider.jpg" alt="sliderIMG" height="600px" width="100%" />
     <div class="top-left">
       <h2>PRACTICAL - 9</h2>
@@ -180,9 +179,26 @@
     <p class="contactText">Website Template for Practical-9 © <span style="color: blue;">Beta-labs</span>
     </p>
     <p class="contactText">
-      <a href="#"> Back To Top</a>
+      <a href="#" id="button"> Back To Top</a>
     </p>
   </div>
+  <script>
+    var btn = $('#button');
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
+
+  </script>
 </body>
 
 </html>

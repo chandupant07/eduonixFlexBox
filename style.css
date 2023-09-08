@@ -11,6 +11,11 @@ header {
   padding: 10px;
   color: white;
   font-size: large;
+  position: fixed;
+  overflow: hidden;
+  left: 72px;
+  z-index: 1;
+  margin-top: -30px;
 }
 
 ul {
@@ -45,14 +50,13 @@ li a:hover {
   height: 600px;
   width: 1200px;
   margin: auto;
-  border: 2px solid black;
   margin-top: 30px;
   position: relative;
 }
 
 .top-left {
   position: absolute;
-  top: 8px;
+  top: 30px;
   left: 16px;
   color: white;
   font-size: 30px;
