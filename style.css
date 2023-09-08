@@ -62,19 +62,78 @@ li a:hover {
   height: 300px;
   width: 1200px;
   margin: auto;
-  border: 2px solid black;
   margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .centerMember {
   text-align: center;
+  font-size: 30px;
 }
 
 .member {
-  height: 200px;
-  width: 200px;
+  height: 280px;
+  width: 280px;
   background-color: aquamarine;
   border-radius: 50%;
-  display: inline-block;
-  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+/* about css */
+
+.about {
+  height: 600px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionONE {
+  height: 600px;
+  width: 570px;
+  background-color: gray;
+}
+
+.sectionTWO {
+  height: 600px;
+  width: 570px;
+  position: relative;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  line-height: 28px;
+  color: white;
+}
+
+.sectionTWO-ONE {
+  height: 198px;
+  width: 570px;
+
+}
+
+.innerTextONE {
+  position: absolute;
+  top: -27px;
+  left: 264px;
+  font-size: 30px;
+}
+
+.innerTextTWO {
+  position: absolute;
+  top: 178px;
+  left: 264px;
+  font-size: x-large;
+}
+
+.innerTextTHREE {
+  position: absolute;
+  top: 384px;
+  left: 264px;
+  font-size: x-large;
 }
